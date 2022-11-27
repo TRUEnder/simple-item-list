@@ -1,0 +1,47 @@
+API Documentation
+==================
+
+LIST OF API
+
+- Get All Items
+
+http://127.0.0.1:5050/api/items
+Returns response with the structure like this :
+{
+    code : 200,
+    status : 'OK',
+    data: [
+        item_object1,
+        item_object2,
+        ...
+    ]
+}
+Read the retrieved data with response.data
+
+- Add New Items
+
+http://127.0.0.1:5050/api/add
+Add a new item to item list
+
+- Remove One Items
+
+http://127.0.0.1:5050/api/delete/name=[item_name]
+Remove an item from item list, specified by its item_name
+
+- Update One Items Field Value
+
+http://127.0.0.1:5050/api/update/name=[item_name]&field=[field_name]
+Update an item field value
+
+
+ERROR RESPONSE POSSIBLE
+
+= Not Found API under some path
+
+Retrieve 404 response message
+Discover error message by 
+
+> response.errors.message
+
+= 
+

@@ -1,0 +1,42 @@
+.container {
+    width: 60%;
+    margin: auto auto;
+    padding-top: 50px;
+}
+
+form {
+    width: 50%;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+#dec {
+    border-radius: 10px 0 0 10px;
+}
+
+#inc {
+    border-radius: 0 10px 10px 0;
+}
+
+#counter {
+    border-top: 1px solid #bebebe;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 6px 10px;
+}
+
+#no-item {
+    background-color: #c7c7c7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.action-button {
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
